@@ -37,3 +37,14 @@ You can find out the name of a layer by using model.summary().
 
 Specify the name of the filter to be visualized in `model.get_layer()`.
 As appropriate, increase or decrease the number of `model.get_layer()` by the number of filter you want to visualize.
+
+## cnn_visual.py
+This program is for demonstration purposes.
+
+**Command**
+```
+python cnn_visual.py -e <EPOCH_NUM> -b <BATCH_SIZE>
+
+EPOCH_NUM  : 10 (Default) 
+BATCH_SIZE : 256 (Default) 
+```
