@@ -28,3 +28,12 @@ You can find out the name of a layer by using model.summary().
 
 **How to use**
 
+```
+    # 可視化対象レイヤー
+    vi_layer.append(model.get_layer('conv2d'))
+    vi_layer.append(model.get_layer('conv2d_1'))
+    vi_layer.append(model.get_layer('conv2d_2'))
+```
+
+Specify the name of the filter to be visualized in `model.get_layer()`.
+As appropriate, increase or decrease the number of `model.get_layer()` by the number of filter you want to visualize.
